@@ -1,0 +1,34 @@
+#all{ 
+	width:100%;
+	height:1000px;
+	background:white;
+	
+}
+#kopf{
+	width:100%;
+	height:10%;
+	float:left;
+	background:white;
+	
+}
+#keks{
+	width:40%;
+	height:40%;
+	float:left;
+	background:white;
+	
+}
+#rechtemenü{
+	width:40%;
+	height:90%;
+	float:right;
+	background:white;
+	
+}
+#fuß{
+	width:100%;
+	height:5%;
+	float:left;
+	background:black;
+}
+
