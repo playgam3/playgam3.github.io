@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Fächer.css">
+	<script type="text/javascript" src="JS-SchoolClickeroo.js"></script>
+	<meta charset="UTF-8">
+	<title>School Clickeroo - Biologie</title>
+	
+</head>
+<body style="background-image:url('Level - Biologie.jpg'); background-size: cover;">
+	<div id="all">
+		<div id="platzhalter1">
+		
+		</div>
+		<div id="platzhalter2">
+			
+			<div id="platzhalterP">
+			
+			</div>
+			
+		</div>
+		<div id="tafel">
+			<div id="text">
+				<img src="Klicku.png" style="width:90%;height:55%;margin-top:10%;" oncontextmenu="return false"; draggable="false" onclick="Cookie()">
+			</div>
+			<div id="zaehler">
+				<p style="font-family: Comic Sans MS;"><b>Anzahl der Urkunden: <span id="cookies"></span></b><br></p>
+				<div id="c">Urkunden produziert: <span id="cookies_produced" onLoad="cLaden()">0</span><br></div>
+				<div id="cl">Klicker Level: <span id="clicker_level">1</span><br></div>
+				<div id="m">Multiplikator: <span id="clicker_multiplikator">1.5</span><br></div>
+				<div id="z" style="margin-top:3%;">Ziel: <span id="ziel">2000</span><br></div>
+			</div>
+			<div id="rechtemenü">
+			
+				<div id="cu" ><nav onclick="Upgrade()">Upgrade Kosten:<span id="upgrade_kosten">10</span><br>
+				<input type="button" id="cu" value="Upgraden" onclick="Upgrade()"></input></nav></div>
+				<a href="Tuto.html"><input type="submit" id="startseite" value="Startseite"></input></a>
+			</div>
+		
+	</div>
+</body>
+</html>
